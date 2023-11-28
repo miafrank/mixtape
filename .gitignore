@@ -1,0 +1,4 @@
+notes.md
+
+# Ignore Pytest Cache
+.pytest_cache
