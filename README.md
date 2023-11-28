@@ -42,5 +42,5 @@ $ pipenv install
 ## Run tests
 
 ```
-$ pytest
+$ pipenv run test
 ```
