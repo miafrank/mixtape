@@ -8,3 +8,6 @@ notes.md
 
 # Pipfile Lock
 Pipfile.lock
+
+# Sql Lite
+db.*
