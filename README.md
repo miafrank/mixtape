@@ -20,9 +20,7 @@ Check this by running:
 $ pip --version
 ```
 
-If you do not have Pipenv installed already, install with [Homebrew](https://brew.sh/). 
-
-[Pipenv](https://packaging.python.org/en/latest/tutorials/managing-dependencies/#managing-dependencies) is the offical package management tool reccomended by Python (similar to `npm`): 
+If you do not have Pipenv installed already, install with [Homebrew](https://brew.sh/). [Pipenv](https://packaging.python.org/en/latest/tutorials/managing-dependencies/#managing-dependencies) is the offical package management tool reccomended by Python (similar to `npm`): 
 
 ```
 $ brew install pipenv
@@ -39,4 +37,10 @@ $ pip install --user pipenv
 
 ```
 $ pipenv install
+```
+
+## Run tests
+
+```
+$ pytest
 ```
