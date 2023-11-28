@@ -2,3 +2,9 @@ notes.md
 
 # Ignore Pytest Cache
 .pytest_cache
+
+# Enviornment Variables
+.env
+
+# Pipfile Lock
+Pipfile.lock
