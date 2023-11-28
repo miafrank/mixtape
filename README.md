@@ -1,6 +1,6 @@
-## Setup
+# Setup
 
-#### Install Python
+## Install Python
 
 If you do not have Python, please install the latest 3.x version from python.org. You can check this by running: 
 
@@ -8,9 +8,9 @@ If you do not have Python, please install the latest 3.x version from python.org
 $ python --version
 ```
 
-#### Install Pipenv
+## Install Pipenv
 
-##### Install pip 
+### Install pip 
 
 Make sure you have pip available, you should if you are using Python downloaded from python.org.
 
@@ -43,4 +43,16 @@ $ pipenv install
 
 ```
 $ pipenv run test
+```
+
+## Run development server
+
+```
+$ pipenv run runserver
+```
+
+## Run migrations
+
+```
+$ pipenv run migrate
 ```
