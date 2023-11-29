@@ -34,7 +34,6 @@ $ pip install --user pipenv
 
 ## Install dependencies
 
-
 ```
 $ pipenv install
 ```
@@ -49,6 +48,12 @@ $ pipenv run test
 
 ```
 $ pipenv run runserver
+```
+
+## Create db
+
+```
+$ pipenv run createdb
 ```
 
 ## Run migrations
