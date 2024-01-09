@@ -12,6 +12,9 @@ spotipy = "*"
 twilio = "*"
 psycopg = {extras = ["binary"], version = "*"}
 python-dotenv = "*"
+requests-mock = "*"
+pytest = "*"
+flask = "*"
 
 [dev-packages]
 pytest = "*"
