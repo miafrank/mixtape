@@ -11,3 +11,5 @@ Pipfile.lock
 
 # Migrations
 migrations*
+
+__pycache__
