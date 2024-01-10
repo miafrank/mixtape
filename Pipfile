@@ -15,6 +15,7 @@ python-dotenv = "*"
 requests-mock = "*"
 pytest = "*"
 flask = "*"
+pytest-django = "*"
 
 [dev-packages]
 pytest = "*"
@@ -24,7 +25,8 @@ flake8 = "*"
 python_version = "3.12"
 
 [scripts]
-test = "pytest"
+test = "pytest -rP "
 createdb = "python mixtape/db/create.py"
+resetdb = "python manage.py flush"
 runserver = "python manage.py runserver 8080"
-migrate = "python manage.py migrate"
+migrate = "python manage.py makemigrations mixtape"
