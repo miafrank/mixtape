@@ -1,3 +1,6 @@
+# In Dev | Backlog 
+[Kanban Board](https://trello.com/b/LuBeYyZR/mixtape)
+
 # Setup
 
 ## Install Python
