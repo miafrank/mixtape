@@ -38,26 +38,47 @@ $ pip install --user pipenv
 $ pipenv install
 ```
 
-## Run tests
+## Pipenv scripts
+
+#### Run tests
 
 ```
 $ pipenv run test
 ```
 
-## Run development server
+#### Run development server
 
 ```
 $ pipenv run runserver
 ```
 
-## Create db
+#### Create db
 
 ```
 $ pipenv run createdb
 ```
 
-## Run migrations
+#### Run migrations
+
+```
+$ pipenv run run_migrations
+```
+
+#### Show migrations history
 
 ```
 $ pipenv run migrate
+```
+
+#### Reset db
+
+```
+$ pipenv run resetdb
+```
+
+## Django CLI
+
+#### 
+```
+
 ```
